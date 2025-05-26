@@ -9,7 +9,7 @@ const INFO = {
 	socials: {
 		linkedin: "https://www.linkedin.com/in/rishabh-nagar-1106/",
 		github: "https://github.com/Rishabh1106",
-		resume: "https://drive.google.com/file/d/1TtTygE1qN8XfGHJftHPZt8aO2Wyr0WW0/view?usp=sharing"
+		resume: "https://drive.google.com/file/d/1qbZSvUqz6c3Sv4bDFZTUjLESC_aXOvaA/view?usp=sharing"
 	},
 
 	homepage: {
