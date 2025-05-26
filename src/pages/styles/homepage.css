@@ -55,7 +55,8 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	padding-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .homepage-social-icon {

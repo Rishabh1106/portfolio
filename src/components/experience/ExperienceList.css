@@ -1,0 +1,35 @@
+.experience-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.experience-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.company-logo {
+  max-width: 80px;
+  max-height: 80px;
+  margin-bottom: 15px;
+}
+
+.role {
+  color: #555;
+  font-size: 14px;
+}

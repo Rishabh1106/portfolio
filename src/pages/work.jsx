@@ -3,12 +3,12 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Logo from "../components/common/logo";
-import AllProjects from "../components/projects/allProjects";
+import ExperienceList from "../components/experience/ExperienceList";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
-import "./styles/projects.css";
+import "./styles/work.css";
 
 const Projects = () => {
 	useEffect(() => {
@@ -20,7 +20,7 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`Experience | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -38,24 +38,14 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							My Experience.
+							My Dev Logs: Real Work, Real Impact!
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							Over the past 3.5 years, I’ve worked on a wide range of backend systems, production APIs, and cloud-based services — from building AI-powered identity verification tools to engineering infrastructure that handles millions of secure API calls each month. Many of the projects I’ve contributed to are used in real-world financial and KYC workflows, and I’ve enjoyed the challenge of making them scalable, reliable, and compliant. Whether it’s designing a fresh API from scratch, automating Slack alerts, or deploying Docker containers like puzzle pieces in the cloud, I’ve learned a lot by doing — and breaking — things. I take pride in writing clean, maintainable code and collaborating across teams to ship features that matter. If you're curious about the kind of work I've done or want to discuss systems design, backend magic, or just geek out over infra tools, I’m always up for a chat.
 						</div>
-
-						<div className="projects-list">
-							<AllProjects />
+						<div>
+							<ExperienceList />
 						</div>
 					</div>
 				</div>

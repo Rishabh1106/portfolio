@@ -1,0 +1,97 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  /* background-color: #fff;  */
+  background: linear-gradient(145deg, #ffffff, #a77878);
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-logo {
+  max-width: 80px;
+  max-height: 80px;
+  margin-bottom: 15px;
+}
+
+.modal-role {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.details-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.2s ease;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+
+.project-link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.project-link-icon {
+	padding-left: 5px;
+	font-size: 13px;
+}
+
+.project-link-text {
+	padding-left: 20px;
+	font-weight: 700;
+}
+
+.project:hover .project-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}

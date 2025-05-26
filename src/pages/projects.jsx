@@ -39,30 +39,23 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Code, curiosity, and a little ambition — here’s what I’ve built along the way!
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							I've worked on a variety of projects over the years and take pride in the progress I've made along the way. Many of these are open-source and available for anyone to explore, learn from, or contribute to. If you’re interested in what I’ve built, feel free to dive into the code — feedback, suggestions, or pull requests are always welcome. I believe collaboration is one of the best ways to grow as a developer, and I'm always excited to connect with others who are passionate about building great software.
+						</div>	
+						<div className="subtitle projects-subtitle">
+						Some of my personal highlights include Rentzzy, a property rental web app built with the MERN stack featuring location and budget-based filtering; a COVID-19 diagnosis system using deep learning to analyze X-ray images and cough audio inputs; and a lightweight Todo app built with React and Redux to demonstrate clean state management and component design. These projects reflect my curiosity and passion for experimenting with new tech and building tools that are both functional and fun to create.
 						</div>
 
 						<div className="projects-list">
 							<AllProjects />
 						</div>
 					</div>
-					<div className="page-footer">
+					{/* <div className="page-footer">
 						<Footer />
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</React.Fragment>

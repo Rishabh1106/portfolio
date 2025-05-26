@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #f1f1f1;
+	background-color: #9c6262;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -29,8 +29,8 @@
 	top: 0;
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
-	background-color: #fafafa;
-	border: 1px solid #f4f4f5;
+	background: linear-gradient(145deg, #ffffff, #a77878);
+	border: 1px solid linear-gradient(145deg, #ffffff, #a77878);
 }
 
 .page-content:before {
